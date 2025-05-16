@@ -109,5 +109,114 @@ export const stories = [
       "It wasn’t the loudest, but it was full of heart—and that was enough."
     ],
     moral: "It's not how big your voice is, but how you use it that matters."
+  },
+
+  
+  {
+    title: "Sunny the Snail",
+    pages: [
+      "Sunny the snail was small but loved to explore.",
+      "He slowly traveled across the garden, enjoying each leaf.",
+      "One day, he saw a big bird flying high and wished he could fly too.",
+      "But Sunny realized he could enjoy the journey, no matter how slow.",
+      "And soon, he made many new friends along the way."
+    ],
+    moral: "It's not how fast you go, but how you enjoy the journey."
+  },
+  {
+    title: "Milo the Little Mole",
+    pages: [
+      "Milo the mole lived underground and never saw the sun.",
+      "He was curious about the world above, so he decided to dig up.",
+      "When he popped out of the ground, he was amazed by the flowers and the sky!",
+      "Milo realized that sometimes, trying something new brings beautiful surprises.",
+      "From that day, he made sure to enjoy both the underground and the outside world."
+    ],
+    moral: "Sometimes, new experiences bring wonderful surprises."
+  },
+  {
+    title: "Penny the Penguin's Ice Slide",
+    pages: [
+      "Penny the penguin loved sliding on the ice.",
+      "One day, she saw a small penguin who couldn’t slide.",
+      "Penny showed him how to glide smoothly, and they slid together.",
+      "They laughed and had so much fun, sliding all day long.",
+      "Penny learned that sharing fun with others makes it even better."
+    ],
+    moral: "Sharing joy makes it grow even bigger."
+  },
+  {
+    title: "Lenny the Little Lion",
+    pages: [
+      "Lenny the lion was the smallest in his pride.",
+      "He wanted to roar like the grown-up lions, but his roar was soft.",
+      "One day, he saw a tiger in the distance, and everyone was scared.",
+      "Lenny gave his loudest, bravest roar, and the tiger ran away!",
+      "Lenny showed that even the softest roar can make a difference."
+    ],
+    moral: "It’s not how loud you are, but how brave you are that matters."
+  },
+  {
+    title: "Tilly the Tiny Tiger",
+    pages: [
+      "Tilly was a tiny tiger who couldn’t jump as high as the others.",
+      "She practiced every day, trying to jump higher and higher.",
+      "One day, she leaped the highest she ever could, and everyone cheered!",
+      "Tilly learned that with practice and patience, she could achieve anything."
+    ],
+    moral: "With patience and practice, you can achieve great things."
+  },
+  {
+    title: "Bella the Butterfly",
+    pages: [
+      "Bella was a caterpillar who dreamed of becoming a butterfly.",
+      "She didn’t like waiting, but she knew it was part of her journey.",
+      "Finally, after a long wait, Bella spread her wings and flew beautifully.",
+      "Bella realized that sometimes, good things take time to happen."
+    ],
+    moral: "Patience helps beautiful things grow."
+  },
+  {
+    title: "Charlie the Chipmunk's Stash",
+    pages: [
+      "Charlie the chipmunk loved collecting acorns.",
+      "He gathered as many as he could and hid them in his secret stash.",
+      "But one winter, he found that he had more than he could eat.",
+      "Charlie shared his acorns with the other animals, and everyone was happy.",
+      "He learned that sharing brings more joy than keeping everything to yourself."
+    ],
+    moral: "Sharing is what makes everything sweeter."
+  },
+  {
+    title: "Ella the Elephant’s Gentle Touch",
+    pages: [
+      "Ella the elephant had a very strong trunk.",
+      "One day, she accidentally knocked over a tree with it.",
+      "She felt sad and learned to use her trunk more carefully.",
+      "From then on, Ella helped others gently with her strength."
+    ],
+    moral: "Using strength gently is an important skill."
+  },
+  {
+    title: "Mimi the Magical Moonbeam",
+    pages: [
+      "Mimi the little moonbeam loved to play with the stars.",
+      "One evening, she noticed a sad cloud blocking the stars.",
+      "Mimi decided to shine brightly, lighting up the cloud and making it go away.",
+      "The stars twinkled again, and Mimi felt proud to help them shine."
+    ],
+    moral: "Even a little light can make a big difference."
+  },
+  {
+    title: "Finn the Friendly Fox",
+    pages: [
+      "Finn the fox loved to play with his friends in the forest.",
+      "One day, he found a bird with a hurt wing.",
+      "Finn gently carried the bird to a safe place and cared for it.",
+      "The bird recovered and flew away, thanking Finn for his kindness."
+    ],
+    moral: "Being kind to others makes the world a happier place."
   }
+
+  
 ];
