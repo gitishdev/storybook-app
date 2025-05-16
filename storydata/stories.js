@@ -110,4 +110,4 @@ export const stories = [
     ],
     moral: "It's not how big your voice is, but how you use it that matters."
   }
-]
+];
