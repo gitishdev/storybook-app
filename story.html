@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Story</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="storybook">
+    <div id="controls">
+      <button onclick="toggleView()">🔁 Toggle View</button>
+      <button onclick="window.location.href='index.html'">🏠 Back to Index</button>
+    </div>
+    <div id="story-container"></div>
+    <div id="nav-buttons">
+      <button onclick="prevPage()">⬅ Back</button>
+      <button onclick="nextPage()">Next ➡</button>
+    </div>
+  </div>
+
+  <script type="module">
+    import { stories } from './data/stories.js';
+
+    const params = new URLSearchParams(window.location.search);
+    const storyIndex = parseInt(params.get('story')) || 0;
+    const story = stories[storyIndex];
+
+    let currentPage = 0;
+    let fullView = false;
+
+    const container = document.getElementById('story-container');
+    const nav = document.getElementById('nav-buttons');
+
+    function render() {
+      if (fullView) {
+        nav.style.display = 'none';
+        container.innerHTML = story.pages.map(p => `<p>${p}</p>`).join('') +
+          `<p><strong>🌟 Moral:</strong> ${story.moral}</p>`;
+      } else {
+        nav.style.display = 'block';
+        container.innerHTML = `<p>${story.pages[currentPage]}</p>`;
+        if (currentPage === story.pages.length - 1) {
+          container.innerHTML += `<p><strong>🌟 Moral:</strong> ${story.moral}</p>`;
+        }
+      }
+    }
+
+    window.toggleView = () => {
+      fullView = !fullView;
+      render();
+    }
+
+    window.nextPage = () => {
+      if (currentPage < story.pages.length - 1) {
+        currentPage++;
+        render();
+      }
+    }
+
+    window.prevPage = () => {
+      if (currentPage > 0) {
+        currentPage--;
+        render();
+      }
+    }
+
+    render();
+  </script>
+</body>
+</html>
