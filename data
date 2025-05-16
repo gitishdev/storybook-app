@@ -1,1 +1,11 @@
+# Clone your repo (if not already done)
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 
+# Delete the file
+rm data
+
+# Commit the change
+git add .
+git commit -m "Remove conflicting data file"
+git push origin main
