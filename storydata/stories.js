@@ -1,4 +1,5 @@
 export const stories = [
+
   {
     title: "Coco the Cloud",
     pages: [
@@ -11,18 +12,6 @@ export const stories = [
     moral: "Kindness may make you give a little, but it grows something beautiful in return."
   },
   {
-    title: "The Little Ant Who Waited",
-    pages: [
-      "A small ant found a drop of honey on a hot rock.",
-      "He ran to tell his friends, but when they returned, the honey was gone.",
-      "One wise ant said, 'Let’s build a path to a tree with flowers instead.'",
-      "Together, they worked for days to make the trail.",
-      "Soon, they had all the nectar they needed—every day!"
-    ],
-    moral: "Patience and teamwork can bring lasting rewards."
-  },
-
-{
     title: "Benny the Brave Bunny",
     pages: [
       "Benny the bunny was afraid of the dark forest near his home.",
@@ -121,5 +110,4 @@ export const stories = [
     ],
     moral: "It's not how big your voice is, but how you use it that matters."
   }
-  
-];
+]
