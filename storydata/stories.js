@@ -20,7 +20,7 @@ export const stories = [
       "Soon, they had all the nectar they needed—every day!"
     ],
     moral: "Patience and teamwork can bring lasting rewards."
-  }
+  },
 
 {
     title: "Benny the Brave Bunny",
