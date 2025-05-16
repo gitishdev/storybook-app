@@ -2,19 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Storybook – Coco the Cloud</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Storybook Index</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="storybook">
-    <div class="story-image" id="story-image"></div>
-    <div class="story-text" id="story-text"></div>
-    <div class="controls">
-      <button onclick="prevPage()">⬅ Back</button>
-      <button onclick="nextPage()">Next ➡</button>
-    </div>
+    <h1>🌙 My Moral Storybook</h1>
+    <ul id="story-list"></ul>
   </div>
-  <script src="script.js"></script>
+  <script type="module">
+    import { stories } from './data/stories.js';
+    const list = document.getElementById('story-list');
+    stories.forEach((story, index) => {
+      const item = document.createElement('li');
+      item.innerHTML = `<a href="story.html?story=${index}">${story.title}</a>`;
+      list.appendChild(item);
+    });
+  </script>
 </body>
 </html>
